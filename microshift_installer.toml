@@ -1,0 +1,11 @@
+name = "microshift_installer"
+description = "Intial boot image for microshift cluster, allowing further bootstrapping using FDO"
+version = "0.0.1"
+packages = []
+modules = []
+groups = []
+distro = ""
+
+[customizations.fdo]
+manufacturing_server_url = "http://insert_url_here"
+diun_pub_key_insecure = "true"
